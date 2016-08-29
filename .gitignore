@@ -15,3 +15,6 @@
 /log/*
 !/log/.keep
 /tmp
+
+#ignore devise.rb file
+config/initializers/devise.rb
