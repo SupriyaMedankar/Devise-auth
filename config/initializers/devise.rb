@@ -248,7 +248,7 @@ Devise.setup do |config|
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.
   # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'
-    config.omniauth :google_oauth2, "347037985810-3o7015nrvu1cvj2b8s7clmbjkiqrie0e.apps.googleusercontent.com", "xcfA_P-0DZNHGz1_gv9F6Ym5", {
+    config.omniauth :google_oauth2, "Client_id", "client_secret", {
     scope: "email, profile",
     hd: 'kiprosh.com'
   }
